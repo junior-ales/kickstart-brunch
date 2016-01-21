@@ -1,9 +1,9 @@
 {
   "name": "kickstart-brunch",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Personal brunch io kickstarter with javascript, SASS, eslint and jasmine",
   "scripts": {
-    "lint": "esw app/ --ext .js",
+    "lint": "esw app/ spec/ --ext .js",
     "_clean": "rm -Rv public/* | true",
     "test": "jasmine",
     "prebuild": "npm run lint && npm run test && npm run _clean",

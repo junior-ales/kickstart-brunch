@@ -17,18 +17,22 @@ brunch new --skeleton https://github.com/junior-ales/kickstart-brunch
 
 ## Running
 
-```
 Most important lifecycle scripts included in kickstart-brunch:
-  test
-    jasmine
-  start
-    brunch watch --server
 
-available via `npm run-script`:
-  lint
+```
+  npm test
+    jasmine
+  npm start
+    brunch watch --server
+```
+
+Available via `npm run-script`:
+
+```
+  npm run lint
     esw app/ --ext .js
-  build
+  npm run build
     brunch build
-  build:prod
+  npm run build:prod
     npm run build -- -p
 ```
