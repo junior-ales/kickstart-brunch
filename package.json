@@ -1,6 +1,6 @@
 {
   "name": "kickstart-brunch",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Personal brunch io kickstarter with javascript, SASS, eslint and jasmine",
   "scripts": {
     "lint": "esw app/ spec/ --ext .js",
@@ -27,7 +27,7 @@
     "clean-css-brunch": "^1.8.0",
     "css-brunch": "^1.7.0",
     "eslint": "^1.10.3",
-    "eslint-watch": "^2.1.4",
+    "eslint-watch": "^2.1.5",
     "jasmine": "^2.4.1",
     "javascript-brunch": "^1.8.0",
     "sass-brunch": "^1.9.2",

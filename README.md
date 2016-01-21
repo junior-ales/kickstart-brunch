@@ -30,9 +30,11 @@ Available via `npm run-script`:
 
 ```
   npm run lint
-    esw app/ --ext .js
+    esw app/ spec/ --ext .js
   npm run build
     brunch build
   npm run build:prod
     npm run build -- -p
 ```
+
+Node `v5.5.0` was used for development but the skeleton was tested with prior version `v4.0.0` with success.
