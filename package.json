@@ -1,6 +1,6 @@
 {
   "name": "kickstart-brunch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Personal brunch io kickstarter with javascript, SASS, eslint and jasmine",
   "scripts": {
     "lint": "esw app/ spec/ --ext .js",
@@ -10,7 +10,8 @@
     "build": "brunch build",
     "build:prod": "npm run build -- -p",
     "prestart": "npm run prebuild",
-    "start": "brunch watch --server"
+    "start": "brunch watch --server",
+    "watch": "watch 'npm run lint && npm run test' app/ spec/ -d"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "jasmine": "^2.4.1",
     "javascript-brunch": "^1.8.0",
     "sass-brunch": "^1.9.2",
-    "uglify-js-brunch": "^1.7.8"
+    "uglify-js-brunch": "^1.7.8",
+    "watch": "^0.17.1"
   }
 }
