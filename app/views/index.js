@@ -1,11 +1,9 @@
 'use strict';
 
-var greetingView = require('./components/greetingView');
+const greetingView = require('./components/greetingView');
 
-var app = {
-  init: function() {
-    document.getElementById('content').innerHTML = greetingView.render();
-  }
+const init = function() {
+  document.getElementById('content').innerHTML = greetingView.render();
 };
 
-module.exports = app;
+document.addEventListener('DOMContentLoaded', init);

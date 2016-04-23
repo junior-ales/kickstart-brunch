@@ -1,7 +1,7 @@
 'use strict';
 
 var greetingView = {
-  render: function() {
+  render() {
     return '<h1 class="greeting-panel">Hi! I am your first raw component.</h1>';
   }
 };

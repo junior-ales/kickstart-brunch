@@ -13,7 +13,11 @@ module.exports = {
           'styles/app.css': /^app\//,
           'styles/libs.css': /^vendor\/styles\//
         }
-      }
+      },
+    },
+
+    plugins: {
+      babel: { presets: ['es2015'] }
     }
   }
 };
