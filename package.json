@@ -1,6 +1,6 @@
 {
   "name": "kickstart-brunch",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Personal brunch kickstarter with javascript, SASS, eslint and jasmine",
   "scripts": {
     "lint": "esw app/ spec/ --ext .js",
@@ -24,17 +24,17 @@
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
-    "babel-brunch": "~6.0.0",
-    "babel-preset-es2015": "~6.3.13",
+    "babel-brunch": "^6.0.5",
+    "babel-preset-es2015": "^6.13.2",
     "brunch": "^2.7.1",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
-    "eslint": "^1.10.3",
+    "eslint": "^3.2.2",
     "eslint-watch": "^2.1.5",
     "jasmine": "^2.4.1",
     "javascript-brunch": "^2.0.0",
-    "sass-brunch": "^1.9.2",
+    "sass-brunch": "^2.6.3",
     "uglify-js-brunch": "^2.0.0",
-    "watch": "^0.17.1"
+    "watch": "^0.19.1"
   }
 }
