@@ -1,6 +1,6 @@
 {
   "name": "kickstart-brunch",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Personal brunch kickstarter with javascript, SASS, eslint and jasmine",
   "scripts": {
     "lint": "esw app/ spec/ --ext .js",

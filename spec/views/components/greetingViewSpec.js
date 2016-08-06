@@ -1,6 +1,6 @@
 'use strict';
 
-var GreetingView = require('../../../app/views/components/greetingView');
+const GreetingView = require('../../../app/views/components/greetingView');
 
 describe('Greeting View', () => {
   it('should mention it is a raw HTML component', () => {
