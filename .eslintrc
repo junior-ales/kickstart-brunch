@@ -9,7 +9,6 @@
   "extends": "eslint:recommended",
   "rules": {
     "no-console": 0,
-    "strict": [ 2, "global" ],
     "camelcase": [ 2, { "properties": "always" } ],
     "linebreak-style": 2,
     "block-scoped-var": 2,

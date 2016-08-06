@@ -1,5 +1,3 @@
-'use strict';
-
 const greetingView = require('./components/greetingView');
 
 const init = function() {
